@@ -1,5 +1,13 @@
 # Debian_Install_Common_Build_Tools
 
+* You might have [Upgraded to Buster](https://github.com/brettjrea/Debian_Bullseye_Upgrade_Script)
+* You might have [Upgraded to Jammy](https://github.com/brettjrea/Ubuntu_Jammy_Upgrade_Script)
+* [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)
+* [Install NVS](https://github.com/brettjrea/Debian_Install_NVS)
+*Added 02/23 it is a cross-platform node based successor/replacement for NVM.*
+
+---
+
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
 sudo apt install wget -y &&
