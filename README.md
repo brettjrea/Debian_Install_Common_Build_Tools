@@ -13,8 +13,12 @@ sudo apt clean -y
 
 ---
 
-
+### Possible Backends
 *You might now want to [install Strapi.io](https://github.com/brettjrea/Debian_Strapi_Backend_API) backend*
+
+---
+
+### Possible Frontends
 
 *You might now want to [install a Gatsby.js w/ Styled-Components.](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
 
