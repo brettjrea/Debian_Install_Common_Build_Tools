@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install common languages
+sudo apt install python3
+
 # Install Common Utilities
 sudo apt install nano net-tools zip apt-utils -y
 
