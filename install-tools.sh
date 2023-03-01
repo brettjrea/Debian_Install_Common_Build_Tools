@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Install common languages
-sudo apt install python3
+sudo apt install python3 -y
 
 # Install Common Utilities
-sudo apt install nano net-tools zip apt-utils -y
+sudo apt install nano net-tools zip -y
 
 # Install Common Fetchers
 sudo apt install curl git wget -y
