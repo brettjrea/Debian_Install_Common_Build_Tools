@@ -5,6 +5,7 @@ apt-get update
 apt-get upgrade -y
 DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     make \
+    gcc \
     unzip \
     build-essential \
     swig3.0 \
@@ -38,7 +39,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
 
 # Verify expected build and debug tools are present
 apt-get update
-apt-get -y install build-essential cmake cppcheck valgrind clang lldb llvm gdb python3-dev
+apt-get -y install build-essential gcc cmake cppcheck valgrind clang lldb llvm gdb python3-dev
 apt-get install -yq vim vim-doc xtail software-properties-common libsecret-1-dev
 apt-get install -y --no-install-recommends libnss3 libnspr4 libatk-bridge2.0-0 libatk1.0-0 libx11-6 libpangocairo-1.0-0 \
     libx11-xcb1 libcups2 libxcomposite1 libxdamage1 libxfixes3 libpango-1.0-0 libgbm1 libgtk-3-0
