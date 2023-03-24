@@ -19,4 +19,4 @@ sudo apt install jq -y
 sudo apt-get install libsecret-1-0 -y
 
 # The libsecret library files are typically installed in the /usr/lib/ directory
-# and header files are located in the /usr/include/libsecret-1/ directory.
+# and header files are located in the /usr/include/libsecret-1/ directory
